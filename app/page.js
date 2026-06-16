@@ -14,9 +14,21 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Prompt */}
+      <section className="max-w-6xl mx-auto px-6 py-8">
+        <h2 className="text-2xl font-bold mb-6 text-gray-900">Term Project</h2>
+        <div className="bg-white border border-gray-300 p-8" style={{ borderRadius: "0px" }}>
+          <p className="text-base text-gray-700 leading-relaxed mb-4">
+            A huge share of your grade will come from the class project!
+            You will be required to work in pairs to develop a piece of software using methodologies and models discussed in class.
+            We will try to work as closely as possible to the way software is developed in the industry. Therefore, we will adopt an incremental approach to producing our software product. </p>
+          <p>The culmination of this will be final project presentations during the last class session, July 23rd. See the class schedule for specific dates and deadlines!
+            While you have almost complete creative freedom on your software product, there are basic requirements that need to be fulfilled. </p>
+        </div>
+      </section>
+
       {/* Quick Links */}
-      <section className="max-w-6xl mx-auto px-6 py-16">
-        <h2 className="text-3xl font-bold mb-12 text-gray-900">Documentation</h2>
+      <section className="max-w-6xl mx-auto px-6 py-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div className="bg-white border border-gray-300 p-8" style={{ borderRadius: "0px" }}>
             <h3 className="text-lg font-semibold mb-3 text-gray-900">Project Overview</h3>

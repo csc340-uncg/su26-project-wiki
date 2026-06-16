@@ -8,9 +8,26 @@ export default function UsersPage() {
           <p className="text-gray-400 mt-2">System functionality for different user types</p>
         </div>
       </section>
+            <section className="max-w-6xl mx-auto px-6 py-4">
+        <div className="bg-white border border-gray-300 p-4" style={{ borderRadius: "0px" }}>
+          <p className="text-base text-gray-700 leading-relaxed mb-4">
+           Each member of your group will be responsible for developing subsystems/services for a specific type of user.
+           Each type of user will have specific services available to them. </p>
+           <ul className="space-y-2 text-sm text-gray-600">
+                  <li className="flex gap-2">
+                    <span className="text-gray-900 flex-shrink-0">•</span>
+                    <span>Customer</span>
+                  </li>
+                  <li className="flex gap-2">
+                    <span className="text-gray-900 flex-shrink-0">•</span>
+                    <span>Service Provider</span>
+                  </li>
+                </ul>
+        </div>
+      </section>
 
       {/* User Types */}
-      <section className="max-w-6xl mx-auto px-6 py-12">
+      <section className="max-w-6xl mx-auto px-6 py-8">
         <h2 className="text-2xl font-bold mb-8 text-gray-900">Platform User Types</h2>
 
         <div className="space-y-8">
