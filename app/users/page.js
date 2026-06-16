@@ -133,7 +133,7 @@ export default function UsersPage() {
 
           {/* Administrator */}
           <div className="border border-gray-300 p-8" style={{ borderRadius: "0px" }}>
-            <h3 className="text-xl font-bold text-gray-900 mb-4">Administrator</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-4">Administrator (if your team has 3 members)</h3>
             <p className="text-gray-700 mb-6">
               Platform administrator with oversight and management responsibilities. Handles content moderation, user management, and system operations.
             </p>
