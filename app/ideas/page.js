@@ -203,7 +203,7 @@ export default function IdeasPage() {
                 </div>
 
                 {/* Status-specific content */}
-                {idea.status === "claimed" && idea.team_name && (
+                {idea.status === "claimed" && idea.team_name !== null && idea.team_name !== undefined && (
                   <div className="bg-gray-50 border border-gray-300 p-4 mb-6" style={{ borderRadius: "0px" }}>
                     <p className="text-sm text-gray-900">
                       <span className="font-semibold">Claimed by Team:</span> {idea.team_name}
